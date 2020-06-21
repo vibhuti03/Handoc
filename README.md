@@ -20,11 +20,11 @@ Build a Presence service, similar to that of google docs, which shows people tha
 ### 2. New User Registration Page
 ![alt](https://github.com/vibhuti03/Handoc/blob/master/Images/New_User_Register_page.PNG)
 
-### 3. Welcoming User Page
-![alt](https://github.com/vibhuti03/Handoc/blob/master/Images/Welcome_page.png)
-
-### 4. Login Page
+### 3. Login Page
 ![alt](https://github.com/vibhuti03/Handoc/blob/master/Images/Login_pagePNG.PNG)
+
+### 4. Welcoming User Page
+![alt](https://github.com/vibhuti03/Handoc/blob/master/Images/Welcome_page.png)
 
 ### 5. New Document Creation Page
 ![alt](https://github.com/vibhuti03/Handoc/blob/master/Images/New_document_page.PNG)
