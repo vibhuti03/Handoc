@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+<center>
+<div><h3>Write your thoughts here.....</h3></div>
+
+<form method ="POST">
+
+    {%csrf_token %}
+
+    <div>{{ form }}</div>
+    <br>
+    <button  class="btn btn-dark" type="submit">Save your thoughts</button>
+    <br>
+</form>
+</center>
+<br>
+<br>
+<br>
+{% else %}
+<center><h3>Login to create a document.</h3></center>
+
+{% endif %}
+
+{% endblock %}

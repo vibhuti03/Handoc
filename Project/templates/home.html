@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+<center><h1><b> Hello, {{user.username}} !</b></h1></center>
+
+<br>
+<center>
+    <a class="waves-effect waves-dark btn-large" href="document">Create new doc</a>
+    <a class="waves-effect waves-dark btn-large" href="viewdoc">View old docs</a>
+</center>
+
+{% else %}
+<center><h1><b> NAMASTE </b></h1></center>
+<center><img src="/static/image/4.png" alt="Document Image" width="1150" height="510"></center>
+{% endif %}
+
+
+
+{% endblock %}
