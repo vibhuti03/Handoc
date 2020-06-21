@@ -1,7 +1,9 @@
 # Handoc
+(<b>The website is live on http://vibhuti03.pythonanywhere.com/</b>)
+
 Assignment given by Navigus for Round-2 of  its placement.
 
-<b>The website is live on http://vibhuti03.pythonanywhere.com/</b>
+
 
 ### Description of the Assignment
 Build a Presence service, similar to that of google docs, which shows people that are currently viewing a particular doc.
